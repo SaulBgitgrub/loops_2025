@@ -6,12 +6,12 @@
 
 
 # ### **Problem 1: Print Numbers 1 to 10
+
+# Write a program that prints the numbers from **1 to 10**, each on a new line.
+
 num1to10 = list(range(1,11))
 for number in num1to10:
     print(number)
-# Write a program that prints the numbers from **1 to 10**, each on a new line.
-
-
 
 # ### **Problem 2: Sum of Numbers
 
@@ -29,7 +29,16 @@ print("The sum of numbers from 1 to", n, "is", total_sum)
 
 # *(Example: factorial of 5 is 120)
 
+for i in range(10):
+    print(i)
 
+def factorial(n):
+    factorial = 1
+    for i in range(n):
+        factorial*=i+1
+
+    return factorial
+print(factorial)
 # ### **Problem 4: Count Vowels**
 
 # Ask the user for a string. Count and print how many **vowels (a, e, i, o, u)** are in the string.
@@ -38,7 +47,18 @@ print("The sum of numbers from 1 to", n, "is", total_sum)
 # ### **Problem 5: Print Even Numbers**
 
 # Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
+n = int(input("Enter a number: "))
+print("Even numbers from 2 to ", n, ":")
+for number in range(2, n + 1, 2):
+    print(number)
 
+list_even_numbers = list(range(1,45))
+for number in list_even_numbers:
+    #if number is even, print it
+    if number % 2 == 0:
+        print("even number", number)
+    else:
+        print("odd number, skipping", number)
 
 
 # ### **Problem 6: Reverse a String**
