@@ -1,4 +1,5 @@
 
+
 # # **Python Practice Problems (No Code Included)
 
 # **Directions:** Solve each problem by writing your own Python code. Show outputs where required.
@@ -8,7 +9,7 @@
 
 # Write a program that prints the numbers from **1 to 10**, each on a new line.
 
-
+new_numbers = list
 
 # ### **Problem 2: Sum of Numbers
 
